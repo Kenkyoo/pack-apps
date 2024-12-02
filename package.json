@@ -1,0 +1,20 @@
+{
+  "name": "app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "tailwind": "npx tailwindcss -i ./src/css/input.css -o ./src/css/output.css --watch",
+    "sass": "sass --watch ./src/scss/style.scss ./src/css/style.css"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.15",
+    "vite": "^5.4.10"
+  },
+  "dependencies": {
+    "sass": "^1.81.0"
+  }
+}
